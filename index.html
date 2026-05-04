@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Атлант Консалт — покупка и лизинг грузовых авто под ключ. Надёжность, динамика, выгодные условия для вашего бизнеса.">
+    <meta name="keywords" content="лизинг грузовиков, покупка грузовых авто, грузовые автомобили в лизинг, Атлант Консалт">
+    <meta name="author" content="Атлант Консалт">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.atlantconsult.ru">
+    <title>Атлант Консалт — Грузовики под ключ: покупка и лизинг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/">Атлант <span>Консалт</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#calculator">Калькулятор лизинга</a></li>
+                <li><a href="#about">О компании</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <a href="#calculator" class="btn btn-primary">Рассчитать лизинг</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Грузовики под ключ:<br> покупка и лизинг с <span class="orange-text">Атлант Консалт</span></h1>
+                <p class="hero-text">Профессиональная логистика, выгодные условия лизинга и продажи грузовой техники. Двигаем ваш бизнес вперёд.</p>
+                <div class="hero-buttons">
+                    <a href="#calculator" class="btn btn-primary">Стать партнёром →</a>
+                    <a href="#services" class="btn btn-outline">Наши услуги</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="грузовик.jpg" alt="Грузовой автомобиль Атлант Консалт лизинг">
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="section">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon">🚛</div>
+                    <h3>Продажа грузовых авто</h3>
+                    <p>Широкий выбор тягачей, фургонов и спецтехники от ведущих производителей. Полное сопровождение сделки.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Лизинг от 0%</h3>
+                    <p>Гибкие программы лизинга для малого и среднего бизнеса. Быстрое одобрение, минимальный первый взнос.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Щит надёжности</h3>
+                    <p>Проверка юридической чистоты, постгарантийное обслуживание, консультации экспертов логистики.</p>
+                </div>
+            </div>
+            <div class="features-list">
+                <div class="feature-item"><span class="feature-icon">📈</span> <span><strong>Развитие бизнеса</strong> – увеличивайте автопарк без кассовых разрывов</span></div>
+                <div class="feature-item"><span class="feature-icon">⚙️</span> <span><strong>Грузовая техника</strong> – кабина, двигатель, шасси: фото и полная тех. документация</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="calculator" class="section section-gray">
+        <div class="container">
+            <h2 class="text-center">Калькулятор лизинга</h2>
+            <p class="text-center subtext">Рассчитайте ежемесячный платёж для грузового автомобиля</p>
+            <div class="calc-wrapper">
+                <div class="form-group">
+                    <label for="carPrice">Стоимость автомобиля (₽)</label>
+                    <input type="number" id="carPrice" value="4500000">
+                </div>
+                <div class="form-group">
+                    <label for="initialFee">Первоначальный взнос (%)</label>
+                    <input type="number" id="initialFee" value="20" step="5">
+                </div>
+                <div class="form-group">
+                    <label for="leaseTerm">Срок лизинга (месяцев)</label>
+                    <select id="leaseTerm">
+                        <option value="12">12 месяцев</option>
+                        <option value="24" selected>24 месяца</option>
+                        <option value="36">36 месяцев</option>
+                        <option value="48">48 месяцев</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="rate">Процентная ставка (% годовых)</label>
+                    <input type="number" id="rate" step="0.5" value="9.5">
+                </div>
+                <button id="calcBtn" class="btn btn-primary">Рассчитать платёж</button>
+                <div id="calcResult" class="calc-result">
+                    Ежемесячный платёж: <strong>— ₽</strong>
+                </div>
+                <small class="calc-note">*Расчёт предварительный. Точные условия уточняйте у менеджеров.</small>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <div class="container">
+            <div class="about-flex">
+                <div class="about-text">
+                    <h2>О компании «Атлант Консалт»</h2>
+                    <p><strong>Надёжность мифологического Атланта</strong> и <strong>динамика грузоперевозок</strong> – философия нашего бренда. Мы соединяем профессионализм и стабильность, готовность решать сложные логистические задачи.</p>
+                    <p>С 2014 года помогаем бизнесу обновлять автопарк, предлагая грузовые авто в лизинг и продажу. Оранжевые акценты – символ энергии и движения вперёд, синий – доверие и компетентность.</p>
+                    <div class="feature-item"><span class="feature-icon">🏅</span> <span>Лидер B2B-сегмента по лизингу грузовиков в регионе</span></div>
+                    <div class="feature-item"><span class="feature-icon">📦</span> <span>Помощь в оформлении и страховании КАСКО/ОСАГО</span></div>
+                </div>
+                <div class="about-myth">
+                    <div class="myth-icon">🏛️</div>
+                    <p class="myth-text">«Держим небосвод вашего бизнеса»</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact" class="section">
+        <div class="container">
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h2>Контакты</h2>
+                    <p><strong>📞 Телефон:</strong> +7 (495) 123-45-67</p>
+                    <p><strong>✉️ Email:</strong> info@atlantconsult.ru</p>
+                    <p><strong>📍 Адрес:</strong> г. Москва, ул. Логистическая, д. 12, бизнес-центр «Атлант»</p>
+                    <p><strong>🕒 Режим работы:</strong> Пн–Пт 9:00–19:00</p>
+                    <div class="contact-buttons">
+                        <a href="#calculator" class="btn btn-primary">Рассчитать лизинг</a>
+                        <a href="#" class="btn btn-outline">Получить КП</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Свяжитесь с нами</h3>
+                    <p>Оставьте заявку, и мы проконсультируем по выгодным условиям лизинга и продажи грузовых автомобилей.</p>
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Ваше имя" class="form-input">
+                        <input type="tel" placeholder="Телефон" class="form-input">
+                        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-flex">
+            <div class="footer-logo">Атлант Консалт</div>
+            <div class="footer-links">
+                <a href="#services">Услуги</a>
+                <a href="#calculator">Калькулятор</a>
+                <a href="#about">О компании</a>
+                <a href="#gallery">Галерея</a>
+            </div>
+            <div>© 2025 Атлант Консалт — грузовики под ключ</div>
+        </div>
+        <div class="footer-slogan">
+            <p>Двигаем бизнес вперёд: грузовые авто в лизинг и продажу</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Атлант Консалт",
+  "url": "https://www.atlantconsult.ru",
+  "description": "Покупка и лизинг грузовых автомобилей, продажа грузовой техники под ключ.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Логистическая, 12",
+    "addressLocality": "Москва",
+    "addressCountry": "RU"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+74951234567",
+    "contactType": "customer service"
+  }
+}
+</script>
+</body>
+</html>
