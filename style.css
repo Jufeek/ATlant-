@@ -10,7 +10,11 @@ body {
     color: #333333;
     line-height: 1.5;
     scroll-behavior: smooth;
-    text-decoration:none
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .container {
